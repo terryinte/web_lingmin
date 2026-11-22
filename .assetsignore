@@ -1,0 +1,45 @@
+# Repo and documentation
+.gitignore
+.gitattributes
+.assetsignore
+.github
+.git
+README.md
+*.md
+
+# Project and deploy config
+wrangler.jsonc
+wrangler.json
+wrangler.toml
+cloudflare.config.ts
+cloudflare.config.js
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+npm-shrinkwrap.json
+
+# Dependencies and tool caches
+node_modules
+.wrangler
+.npm
+.pnpm-store
+.yarn
+
+# Environment, secrets, and private material
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_rsa.pub
+.DS_Store
