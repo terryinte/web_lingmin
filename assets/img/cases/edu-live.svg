@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123f4a"/><stop offset="1" stop-color="#07101e"/></linearGradient>
+<linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b7fd4"/><stop offset="1" stop-color="#2fbfa8"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy="1.15" r=".75"><stop offset="0" stop-color="#2fbfa8" stop-opacity=".22"/><stop offset="1" stop-color="#2fbfa8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2" cx=".15" cy="0" r=".6"><stop offset="0" stop-color="#2b7fd4" stop-opacity=".16"/><stop offset="1" stop-color="#2b7fd4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".035"/></pattern>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24435d" stop-opacity=".88"/><stop offset="1" stop-color="#0b1b30" stop-opacity=".96"/></linearGradient>
+<linearGradient id="surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a6a3ff" stop-opacity=".22"/><stop offset="1" stop-color="#a6a3ff" stop-opacity=".035"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6a3ff" stop-opacity=".8"/><stop offset=".5" stop-color="#a6a3ff" stop-opacity=".05"/><stop offset="1" stop-color="#6ad5f1" stop-opacity=".55"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#a6a3ff" stop-opacity=".24"/><stop offset="1" stop-color="#a6a3ff" stop-opacity="0"/></radialGradient>
+<filter id="depth" x="-25%" y="-25%" width="150%" height="165%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#020812" flood-opacity=".7"/></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a6a3ff" stroke-opacity=".075" stroke-width=".6"/></pattern>
+</defs>
+<style>
+.s{fill:none;stroke:#e9f0fa;stroke-opacity:.78;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.s1{fill:none;stroke:#e9f0fa;stroke-opacity:.42;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.p{fill:#ffffff;fill-opacity:.055;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.pd{fill:#0a1626;fill-opacity:.85;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.a{fill:none;stroke:#43d1b8;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ab{fill:none;stroke:#5aa6ef;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ay{fill:none;stroke:#f5b94a;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke-dasharray:5 5}
+.ft{fill:#2fbfa8;fill-opacity:.88}.ft2{fill:#2fbfa8;fill-opacity:.22}
+.fb{fill:#2b7fd4;fill-opacity:.9}.fb2{fill:#2b7fd4;fill-opacity:.3}
+.fw{fill:#e9f0fa;fill-opacity:.38}.fw2{fill:#e9f0fa;fill-opacity:.16}.fl{fill:#e9f0fa;fill-opacity:.92}
+.fy{fill:#f5b94a;fill-opacity:.92}.fg{fill:url(#ag)}
+.p{fill:url(#surface);stroke:#a6a3ff;stroke-opacity:.55}
+.pd{fill:url(#glass);fill-opacity:1;stroke:#a6a3ff;stroke-opacity:.6;filter:url(#depth)}
+.a{stroke:#6ad5f1}.ab{stroke:#a6a3ff}.ft{fill:#6ad5f1}.fb{fill:#a6a3ff}
+</style>
+<rect width="480" height="270" fill="url(#bg)"/><rect width="480" height="270" fill="url(#dots)"/>
+<rect width="480" height="270" fill="url(#gl2)"/><rect width="480" height="270" fill="url(#gl)"/>
+<rect width="480" height="270" fill="url(#grid)"/>
+<ellipse cx="248" cy="145" rx="215" ry="135" fill="url(#halo)"/>
+<path d="M0 226L240 153 480 226M0 250L240 173 480 250M48 270L240 190 432 270M144 270L240 202 336 270" fill="none" stroke="#a6a3ff" stroke-opacity=".13" stroke-width=".7"/>
+<rect x="24" y="40" width="432" height="199" rx="14" fill="#071220" fill-opacity=".35" stroke="url(#edge)"/>
+<path d="M24 62V54Q24 40 38 40H58M422 239H442Q456 239 456 225V217" fill="none" stroke="#6ad5f1" stroke-opacity=".8" stroke-width="1.5"/>
+<circle cx="28" cy="23" r="3" fill="#6ad5f1"/>
+<text x="39" y="27" fill="#c2d6e9" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.6">CONNECTED CLASSROOM</text>
+<path d="M400 22H422M427 22H437M442 22H452" stroke="#a6a3ff" stroke-opacity=".6" stroke-width="2"/>
+<g transform="translate(53 28) scale(.78)"><rect x="54" y="36" width="256" height="176" rx="10" class="pd"/><rect x="66" y="48" width="232" height="152" rx="6" class="p"/><rect x="170" y="64" width="116" height="84" rx="4" class="fw2"/><rect x="180" y="78" width="80" height="5" rx="2" class="ft2"/><rect x="180" y="92" width="68" height="5" rx="2" class="ft2"/><rect x="180" y="106" width="56" height="5" rx="2" class="ft2"/><rect x="180" y="120" width="44" height="5" rx="2" class="ft2"/><polyline points="182,140 204,128 226,134 250,118" class="a"/><circle cx="118" cy="104" r="12.6" class="s"/><path d="M95.6 146.0 Q95.6 122.2 118 122.2 Q140.4 122.2 140.4 146.0" class="s"/><rect x="66" y="176" width="232" height="24" rx="0" class="fb2"/><circle cx="84" cy="188" r="5" class="fy"/><rect x="94" y="185" width="30" height="6" rx="3" class="fw"/><rect x="226" y="184" width="60" height="8" rx="4" class="fw2"/><rect x="326" y="36" width="48" height="40" rx="5" class="p"/><circle cx="350" cy="50" r="4.05" class="s1"/><path d="M342.8 63.5 Q342.8 55.85 350 55.85 Q357.2 55.85 357.2 63.5" class="s1"/><rect x="382" y="36" width="48" height="40" rx="5" class="p"/><circle cx="406" cy="50" r="4.05" class="s1"/><path d="M398.8 63.5 Q398.8 55.85 406 55.85 Q413.2 55.85 413.2 63.5" class="s1"/><rect x="326" y="84" width="48" height="40" rx="5" class="p"/><circle cx="350" cy="98" r="4.05" class="s1"/><path d="M342.8 111.5 Q342.8 103.85 350 103.85 Q357.2 103.85 357.2 111.5" class="s1"/><rect x="382" y="84" width="48" height="40" rx="5" class="p"/><circle cx="406" cy="98" r="4.05" class="s1"/><path d="M398.8 111.5 Q398.8 103.85 406 103.85 Q413.2 103.85 413.2 111.5" class="s1"/><rect x="326" y="140" width="104" height="28" rx="8" class="p"/><polygon points="335,167 345,167 334,177" class="p"/><rect x="336" y="150" width="80" height="4" rx="2" class="fw"/><rect x="326" y="184" width="90" height="28" rx="8" class="fb2"/><polygon points="335,211 345,211 334,221" class="fb2"/><rect x="336" y="194" width="60" height="4" rx="2" class="fw"/><rect x="54" y="224" width="256" height="18" rx="9" class="fw2"/><rect x="54" y="224" width="150" height="18" rx="9" class="fg"/></g>
+<text x="26" y="258" fill="#b4c8da" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="10" letter-spacing="1">直播教学 / 课堂互动</text>
+<text x="454" y="258" text-anchor="end" fill="#6d879f" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.2">LINGMIN / CONCEPT</text>
+</svg>

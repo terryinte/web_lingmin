@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12385c"/><stop offset="1" stop-color="#07101e"/></linearGradient>
+<linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b7fd4"/><stop offset="1" stop-color="#2fbfa8"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy="1.15" r=".75"><stop offset="0" stop-color="#2fbfa8" stop-opacity=".22"/><stop offset="1" stop-color="#2fbfa8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2" cx=".15" cy="0" r=".6"><stop offset="0" stop-color="#2b7fd4" stop-opacity=".16"/><stop offset="1" stop-color="#2b7fd4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".035"/></pattern>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24435d" stop-opacity=".88"/><stop offset="1" stop-color="#0b1b30" stop-opacity=".96"/></linearGradient>
+<linearGradient id="surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#58b8ff" stop-opacity=".22"/><stop offset="1" stop-color="#58b8ff" stop-opacity=".035"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58b8ff" stop-opacity=".8"/><stop offset=".5" stop-color="#58b8ff" stop-opacity=".05"/><stop offset="1" stop-color="#46dec9" stop-opacity=".55"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#58b8ff" stop-opacity=".24"/><stop offset="1" stop-color="#58b8ff" stop-opacity="0"/></radialGradient>
+<filter id="depth" x="-25%" y="-25%" width="150%" height="165%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#020812" flood-opacity=".7"/></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#58b8ff" stroke-opacity=".075" stroke-width=".6"/></pattern>
+</defs>
+<style>
+.s{fill:none;stroke:#e9f0fa;stroke-opacity:.78;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.s1{fill:none;stroke:#e9f0fa;stroke-opacity:.42;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.p{fill:#ffffff;fill-opacity:.055;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.pd{fill:#0a1626;fill-opacity:.85;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.a{fill:none;stroke:#43d1b8;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ab{fill:none;stroke:#5aa6ef;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ay{fill:none;stroke:#f5b94a;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke-dasharray:5 5}
+.ft{fill:#2fbfa8;fill-opacity:.88}.ft2{fill:#2fbfa8;fill-opacity:.22}
+.fb{fill:#2b7fd4;fill-opacity:.9}.fb2{fill:#2b7fd4;fill-opacity:.3}
+.fw{fill:#e9f0fa;fill-opacity:.38}.fw2{fill:#e9f0fa;fill-opacity:.16}.fl{fill:#e9f0fa;fill-opacity:.92}
+.fy{fill:#f5b94a;fill-opacity:.92}.fg{fill:url(#ag)}
+.p{fill:url(#surface);stroke:#58b8ff;stroke-opacity:.55}
+.pd{fill:url(#glass);fill-opacity:1;stroke:#58b8ff;stroke-opacity:.6;filter:url(#depth)}
+.a{stroke:#46dec9}.ab{stroke:#58b8ff}.ft{fill:#46dec9}.fb{fill:#58b8ff}
+</style>
+<rect width="480" height="270" fill="url(#bg)"/><rect width="480" height="270" fill="url(#dots)"/>
+<rect width="480" height="270" fill="url(#gl2)"/><rect width="480" height="270" fill="url(#gl)"/>
+<rect width="480" height="270" fill="url(#grid)"/>
+<ellipse cx="248" cy="145" rx="215" ry="135" fill="url(#halo)"/>
+<path d="M0 226L240 153 480 226M0 250L240 173 480 250M48 270L240 190 432 270M144 270L240 202 336 270" fill="none" stroke="#58b8ff" stroke-opacity=".13" stroke-width=".7"/>
+<rect x="24" y="40" width="432" height="199" rx="14" fill="#071220" fill-opacity=".35" stroke="url(#edge)"/>
+<path d="M24 62V54Q24 40 38 40H58M422 239H442Q456 239 456 225V217" fill="none" stroke="#46dec9" stroke-opacity=".8" stroke-width="1.5"/>
+<circle cx="28" cy="23" r="3" fill="#46dec9"/>
+<text x="39" y="27" fill="#c2d6e9" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.6">FLOOD FORECAST</text>
+<path d="M400 22H422M427 22H437M442 22H452" stroke="#58b8ff" stroke-opacity=".6" stroke-width="2"/>
+<g transform="translate(53 28) scale(.78)"><path d="M334.6 58 a14 14 0 0 1 8 -25 a20 20 0 0 1 37 -8 a16 16 0 0 1 28 12 a11 11 0 0 1 -3 21 Z" class="p"/><line x1="330" y1="74" x2="322" y2="92" class="s1"/><line x1="346" y1="80" x2="338" y2="98" class="s1"/><line x1="362" y1="74" x2="354" y2="92" class="s1"/><line x1="378" y1="80" x2="370" y2="98" class="s1"/><line x1="394" y1="74" x2="386" y2="92" class="s1"/><line x1="410" y1="80" x2="402" y2="98" class="s1"/><rect x="70" y="40" width="170" height="86" rx="8" class="pd"/><rect x="82" y="52" width="60" height="4" rx="2" class="fw"/><polyline points="84,108 104,100 124,104 144,92 164,88" class="ab"/><polyline points="164,88 184,76 204,80 226,64" class="a dash"/><line x1="164" y1="62" x2="164" y2="116" class="s1 dash"/><circle cx="226" cy="64" r="4" class="fy"/><rect x="56" y="150" width="34" height="64" rx="2" class="p"/><rect x="94" y="128" width="40" height="86" rx="2" class="p"/><rect x="138" y="160" width="30" height="54" rx="2" class="p"/><rect x="172" y="140" width="44" height="74" rx="2" class="p"/><rect x="220" y="170" width="30" height="44" rx="2" class="p"/><rect x="254" y="150" width="38" height="64" rx="2" class="p"/><rect x="296" y="166" width="34" height="48" rx="2" class="p"/><rect x="102" y="138" width="6" height="7" rx="1" class="fw2"/><rect x="112" y="138" width="6" height="7" rx="1" class="fw2"/><rect x="122" y="138" width="6" height="7" rx="1" class="fw2"/><rect x="102" y="152" width="6" height="7" rx="1" class="fw2"/><rect x="112" y="152" width="6" height="7" rx="1" class="fw2"/><rect x="122" y="152" width="6" height="7" rx="1" class="fw2"/><rect x="102" y="166" width="6" height="7" rx="1" class="fw2"/><rect x="112" y="166" width="6" height="7" rx="1" class="fw2"/><rect x="122" y="166" width="6" height="7" rx="1" class="fw2"/><rect x="180" y="150" width="6" height="7" rx="1" class="fw2"/><rect x="192" y="150" width="6" height="7" rx="1" class="fw2"/><rect x="204" y="150" width="6" height="7" rx="1" class="fw2"/><rect x="180" y="164" width="6" height="7" rx="1" class="fw2"/><rect x="192" y="164" width="6" height="7" rx="1" class="fw2"/><rect x="204" y="164" width="6" height="7" rx="1" class="fw2"/><rect x="180" y="178" width="6" height="7" rx="1" class="fw2"/><rect x="192" y="178" width="6" height="7" rx="1" class="fw2"/><rect x="204" y="178" width="6" height="7" rx="1" class="fw2"/><path d="M0 214 Q30 204 60 214 T120 214 T180 214 T240 214 T300 214 T360 214 T420 214 T480 214 V270 H0 Z" class="fb2"/><path d="M0 214 Q30 204 60 214 T120 214 T180 214 T240 214 T300 214 T360 214 T420 214 T480 214" class="ab"/><path d="M20 238 Q50 230 80 238 T140 238 T200 238 T260 238 T320 238 T380 238 T440 238" class="s1"/><rect x="372" y="110" width="30" height="112" rx="14" class="pd"/><rect x="378" y="170" width="18" height="46" rx="9" class="ft"/><line x1="366" y1="150" x2="408" y2="150" class="ay"/><circle cx="412" cy="150" r="4" class="fy"/><line x1="404" y1="126" x2="410" y2="126" class="s1"/><line x1="404" y1="144" x2="410" y2="144" class="s1"/><line x1="404" y1="162" x2="410" y2="162" class="s1"/><line x1="404" y1="180" x2="410" y2="180" class="s1"/><line x1="404" y1="198" x2="410" y2="198" class="s1"/></g>
+<text x="26" y="258" fill="#b4c8da" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="10" letter-spacing="1">多源监测 / 风险预判</text>
+<text x="454" y="258" text-anchor="end" fill="#6d879f" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.2">LINGMIN / CONCEPT</text>
+</svg>

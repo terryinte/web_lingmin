@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12385c"/><stop offset="1" stop-color="#07101e"/></linearGradient>
+<linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b7fd4"/><stop offset="1" stop-color="#2fbfa8"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy="1.15" r=".75"><stop offset="0" stop-color="#2fbfa8" stop-opacity=".22"/><stop offset="1" stop-color="#2fbfa8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2" cx=".15" cy="0" r=".6"><stop offset="0" stop-color="#2b7fd4" stop-opacity=".16"/><stop offset="1" stop-color="#2b7fd4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".035"/></pattern>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24435d" stop-opacity=".88"/><stop offset="1" stop-color="#0b1b30" stop-opacity=".96"/></linearGradient>
+<linearGradient id="surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#58b8ff" stop-opacity=".22"/><stop offset="1" stop-color="#58b8ff" stop-opacity=".035"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58b8ff" stop-opacity=".8"/><stop offset=".5" stop-color="#58b8ff" stop-opacity=".05"/><stop offset="1" stop-color="#46dec9" stop-opacity=".55"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#58b8ff" stop-opacity=".24"/><stop offset="1" stop-color="#58b8ff" stop-opacity="0"/></radialGradient>
+<filter id="depth" x="-25%" y="-25%" width="150%" height="165%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#020812" flood-opacity=".7"/></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#58b8ff" stroke-opacity=".075" stroke-width=".6"/></pattern>
+</defs>
+<style>
+.s{fill:none;stroke:#e9f0fa;stroke-opacity:.78;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.s1{fill:none;stroke:#e9f0fa;stroke-opacity:.42;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.p{fill:#ffffff;fill-opacity:.055;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.pd{fill:#0a1626;fill-opacity:.85;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.a{fill:none;stroke:#43d1b8;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ab{fill:none;stroke:#5aa6ef;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ay{fill:none;stroke:#f5b94a;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke-dasharray:5 5}
+.ft{fill:#2fbfa8;fill-opacity:.88}.ft2{fill:#2fbfa8;fill-opacity:.22}
+.fb{fill:#2b7fd4;fill-opacity:.9}.fb2{fill:#2b7fd4;fill-opacity:.3}
+.fw{fill:#e9f0fa;fill-opacity:.38}.fw2{fill:#e9f0fa;fill-opacity:.16}.fl{fill:#e9f0fa;fill-opacity:.92}
+.fy{fill:#f5b94a;fill-opacity:.92}.fg{fill:url(#ag)}
+.p{fill:url(#surface);stroke:#58b8ff;stroke-opacity:.55}
+.pd{fill:url(#glass);fill-opacity:1;stroke:#58b8ff;stroke-opacity:.6;filter:url(#depth)}
+.a{stroke:#46dec9}.ab{stroke:#58b8ff}.ft{fill:#46dec9}.fb{fill:#58b8ff}
+</style>
+<rect width="480" height="270" fill="url(#bg)"/><rect width="480" height="270" fill="url(#dots)"/>
+<rect width="480" height="270" fill="url(#gl2)"/><rect width="480" height="270" fill="url(#gl)"/>
+<rect width="480" height="270" fill="url(#grid)"/>
+<ellipse cx="248" cy="145" rx="215" ry="135" fill="url(#halo)"/>
+<path d="M0 226L240 153 480 226M0 250L240 173 480 250M48 270L240 190 432 270M144 270L240 202 336 270" fill="none" stroke="#58b8ff" stroke-opacity=".13" stroke-width=".7"/>
+<rect x="24" y="40" width="432" height="199" rx="14" fill="#071220" fill-opacity=".35" stroke="url(#edge)"/>
+<path d="M24 62V54Q24 40 38 40H58M422 239H442Q456 239 456 225V217" fill="none" stroke="#46dec9" stroke-opacity=".8" stroke-width="1.5"/>
+<circle cx="28" cy="23" r="3" fill="#46dec9"/>
+<text x="39" y="27" fill="#c2d6e9" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.6">WORKFLOW ENGINE</text>
+<path d="M400 22H422M427 22H437M442 22H452" stroke="#58b8ff" stroke-opacity=".6" stroke-width="2"/>
+<g transform="translate(53 28) scale(.78)"><rect x="52" y="70" width="64" height="84" rx="4" class="p"/><rect x="60" y="62" width="64" height="84" rx="4" class="p"/><rect x="68" y="54" width="64" height="84" rx="4" class="pd"/><rect x="78" y="68" width="44" height="4" rx="2" class="fw"/><rect x="78" y="78" width="44" height="4" rx="2" class="fw"/><rect x="78" y="88" width="27.28" height="4" rx="2" class="fw"/><rect x="78" y="98" width="44" height="4" rx="2" class="fw"/><rect x="78" y="108" width="44" height="4" rx="2" class="fw"/><circle cx="160" cy="112" r="12" class="ft"/><line x1="172" y1="112" x2="196" y2="112" class="s"/><polygon points="196,108 204,112 196,116" class="s"/><rect x="206" y="92" width="54" height="40" rx="8" class="p"/><polyline points="225.8,112 231.2,118.0 241.4,106.0" class="a"/><line x1="260" y1="112" x2="276" y2="112" class="s"/><polygon points="272,108 278,112 272,116" class="s"/><rect x="276" y="92" width="54" height="40" rx="8" class="p"/><polyline points="295.8,112 301.2,118.0 311.4,106.0" class="a"/><line x1="330" y1="112" x2="346" y2="112" class="s"/><polygon points="342,108 348,112 342,116" class="s"/><rect x="346" y="92" width="54" height="40" rx="8" class="p"/><polyline points="365.8,112 371.2,118.0 381.4,106.0" class="a"/><polygon points="366,184 390,160 414,184 390,208" class="pd"/><line x1="330" y1="132" x2="330" y2="184" class="s1"/><line x1="330" y1="184" x2="366" y2="184" class="s1"/><line x1="390" y1="132" x2="390" y2="160" class="s1 dash"/><line x1="414" y1="184" x2="436" y2="184" class="s"/><circle cx="444" cy="184" r="8" class="fb"/><line x1="233" y1="132" x2="233" y2="196" class="s1 dash"/><rect x="196" y="196" width="74" height="30" rx="6" class="p"/><rect x="206" y="205" width="52" height="4" rx="2" class="fw"/><rect x="206" y="213" width="52" height="4" rx="2" class="fw"/><circle cx="110" cy="206" r="24" class="s"/><circle cx="110" cy="206" r="17" class="a"/><line x1="98" y1="206" x2="122" y2="206" class="s1"/><line x1="110" y1="194" x2="110" y2="218" class="s1"/></g>
+<text x="26" y="258" fill="#b4c8da" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="10" letter-spacing="1">流程编排 / 协同办公</text>
+<text x="454" y="258" text-anchor="end" fill="#6d879f" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.2">LINGMIN / CONCEPT</text>
+</svg>

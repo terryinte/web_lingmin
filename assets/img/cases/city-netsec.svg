@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12385c"/><stop offset="1" stop-color="#07101e"/></linearGradient>
+<linearGradient id="ag" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b7fd4"/><stop offset="1" stop-color="#2fbfa8"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy="1.15" r=".75"><stop offset="0" stop-color="#2fbfa8" stop-opacity=".22"/><stop offset="1" stop-color="#2fbfa8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2" cx=".15" cy="0" r=".6"><stop offset="0" stop-color="#2b7fd4" stop-opacity=".16"/><stop offset="1" stop-color="#2b7fd4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".035"/></pattern>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24435d" stop-opacity=".88"/><stop offset="1" stop-color="#0b1b30" stop-opacity=".96"/></linearGradient>
+<linearGradient id="surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#58b8ff" stop-opacity=".22"/><stop offset="1" stop-color="#58b8ff" stop-opacity=".035"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58b8ff" stop-opacity=".8"/><stop offset=".5" stop-color="#58b8ff" stop-opacity=".05"/><stop offset="1" stop-color="#46dec9" stop-opacity=".55"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#58b8ff" stop-opacity=".24"/><stop offset="1" stop-color="#58b8ff" stop-opacity="0"/></radialGradient>
+<filter id="depth" x="-25%" y="-25%" width="150%" height="165%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#020812" flood-opacity=".7"/></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#58b8ff" stroke-opacity=".075" stroke-width=".6"/></pattern>
+</defs>
+<style>
+.s{fill:none;stroke:#e9f0fa;stroke-opacity:.78;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.s1{fill:none;stroke:#e9f0fa;stroke-opacity:.42;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.p{fill:#ffffff;fill-opacity:.055;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.pd{fill:#0a1626;fill-opacity:.85;stroke:#e9f0fa;stroke-opacity:.5;stroke-width:1.6}
+.a{fill:none;stroke:#43d1b8;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ab{fill:none;stroke:#5aa6ef;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ay{fill:none;stroke:#f5b94a;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke-dasharray:5 5}
+.ft{fill:#2fbfa8;fill-opacity:.88}.ft2{fill:#2fbfa8;fill-opacity:.22}
+.fb{fill:#2b7fd4;fill-opacity:.9}.fb2{fill:#2b7fd4;fill-opacity:.3}
+.fw{fill:#e9f0fa;fill-opacity:.38}.fw2{fill:#e9f0fa;fill-opacity:.16}.fl{fill:#e9f0fa;fill-opacity:.92}
+.fy{fill:#f5b94a;fill-opacity:.92}.fg{fill:url(#ag)}
+.p{fill:url(#surface);stroke:#58b8ff;stroke-opacity:.55}
+.pd{fill:url(#glass);fill-opacity:1;stroke:#58b8ff;stroke-opacity:.6;filter:url(#depth)}
+.a{stroke:#46dec9}.ab{stroke:#58b8ff}.ft{fill:#46dec9}.fb{fill:#58b8ff}
+</style>
+<rect width="480" height="270" fill="url(#bg)"/><rect width="480" height="270" fill="url(#dots)"/>
+<rect width="480" height="270" fill="url(#gl2)"/><rect width="480" height="270" fill="url(#gl)"/>
+<rect width="480" height="270" fill="url(#grid)"/>
+<ellipse cx="248" cy="145" rx="215" ry="135" fill="url(#halo)"/>
+<path d="M0 226L240 153 480 226M0 250L240 173 480 250M48 270L240 190 432 270M144 270L240 202 336 270" fill="none" stroke="#58b8ff" stroke-opacity=".13" stroke-width=".7"/>
+<rect x="24" y="40" width="432" height="199" rx="14" fill="#071220" fill-opacity=".35" stroke="url(#edge)"/>
+<path d="M24 62V54Q24 40 38 40H58M422 239H442Q456 239 456 225V217" fill="none" stroke="#46dec9" stroke-opacity=".8" stroke-width="1.5"/>
+<circle cx="28" cy="23" r="3" fill="#46dec9"/>
+<text x="39" y="27" fill="#c2d6e9" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.6">SECURITY OPERATIONS</text>
+<path d="M400 22H422M427 22H437M442 22H452" stroke="#58b8ff" stroke-opacity=".6" stroke-width="2"/>
+<g transform="translate(53 28) scale(.78)"><line x1="240" y1="140" x2="240.0" y2="48.0" class="s1"/><line x1="240" y1="140" x2="305.0538238691624" y2="74.94617613083763" class="s1"/><line x1="240" y1="140" x2="332.0" y2="140.0" class="s1"/><line x1="240" y1="140" x2="305.0538238691624" y2="205.0538238691624" class="s1"/><line x1="240" y1="140" x2="240.0" y2="232.0" class="s1"/><line x1="240" y1="140" x2="174.9461761308376" y2="205.0538238691624" class="s1"/><line x1="240" y1="140" x2="148.0" y2="140.0" class="s1"/><line x1="240" y1="140" x2="174.9461761308376" y2="74.94617613083763" class="s1"/><line x1="240.0" y1="48.0" x2="305.0538238691624" y2="74.94617613083763" class="s1"/><line x1="305.0538238691624" y1="74.94617613083763" x2="332.0" y2="140.0" class="s1"/><line x1="332.0" y1="140.0" x2="305.0538238691624" y2="205.0538238691624" class="s1"/><line x1="305.0538238691624" y1="205.0538238691624" x2="240.0" y2="232.0" class="s1"/><line x1="240.0" y1="232.0" x2="174.9461761308376" y2="205.0538238691624" class="s1"/><line x1="174.9461761308376" y1="205.0538238691624" x2="148.0" y2="140.0" class="s1"/><line x1="148.0" y1="140.0" x2="174.9461761308376" y2="74.94617613083763" class="s1"/><line x1="174.9461761308376" y1="74.94617613083763" x2="240.0" y2="48.0" class="s1"/><circle cx="240.0" cy="48.0" r="7" class="fb"/><circle cx="305.0538238691624" cy="74.94617613083763" r="7" class="ft"/><circle cx="332.0" cy="140.0" r="7" class="fy"/><circle cx="305.0538238691624" cy="205.0538238691624" r="7" class="ft"/><circle cx="240.0" cy="232.0" r="7" class="fb"/><circle cx="174.9461761308376" cy="205.0538238691624" r="7" class="ft"/><circle cx="148.0" cy="140.0" r="7" class="fb"/><circle cx="174.9461761308376" cy="74.94617613083763" r="7" class="ft"/><circle cx="240" cy="140" r="62" class="s1 dash"/><path d="M240 92 L276 106 V140 C276 164 260 180 240 188 C220 180 204 164 204 140 V106 Z" class="pd"/><polyline points="226.8,140 236.7,151.0 255.4,129.0" class="a"/><rect x="352" y="40" width="96" height="54" rx="8" class="pd"/><polygon points="429,93 439,93 440,103" class="pd"/><polyline points="362,80 378,70 394,74 412,58 436,54" class="a"/><rect x="362" y="50" width="50" height="4" rx="2" class="fw"/><rect x="36" y="186" width="92" height="56" rx="8" class="pd"/><rect x="46" y="218" width="10" height="14" rx="2" class="ft"/><rect x="62" y="206" width="10" height="26" rx="2" class="fb"/><rect x="78" y="214" width="10" height="18" rx="2" class="ft"/><rect x="94" y="198" width="10" height="34" rx="2" class="fb"/><rect x="110" y="210" width="10" height="22" rx="2" class="ft"/></g>
+<text x="26" y="258" fill="#b4c8da" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="10" letter-spacing="1">威胁监测 / 闭环处置</text>
+<text x="454" y="258" text-anchor="end" fill="#6d879f" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.2">LINGMIN / CONCEPT</text>
+</svg>
