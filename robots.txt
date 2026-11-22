@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lminai.com/sitemap.xml
